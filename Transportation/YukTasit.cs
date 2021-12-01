@@ -6,23 +6,20 @@ using System.Threading.Tasks;
 
 namespace Transportation
 {
-    public abstract class YolcuTasit : IYolcu
+    public abstract class YukTasit : IYük
     {
         public float Kapasite { get; set; }
         public float YakitTüketim { get; set; }
-        public int ID { get; set; }
-        public YolcuTasit(float Kapasite, float YakitTüketim)
-        {
-            this.Kapasite = Kapasite;
-            this.YakitTüketim = YakitTüketim;
-            this.ID = ID;
-        }
 
+        public YukTasit(float Kapasite, float YakitTüketim)
+        {
+             this.Kapasite = Kapasite;
+            this.YakitTüketim = YakitTüketim;
+        }
 
         public virtual float GetVerim()
         {
             return Kapasite / YakitTüketim;
         }
     }
-
 }

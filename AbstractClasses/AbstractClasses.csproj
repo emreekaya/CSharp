@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8B0678D1-E60F-404C-A2A7-ABAD597E9187}</ProjectGuid>
+    <ProjectGuid>{B0942DAC-B89A-4170-8B48-6F055B01F2D6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Transportation</RootNamespace>
-    <AssemblyName>Transportation</AssemblyName>
+    <RootNamespace>AbstractClasses</RootNamespace>
+    <AssemblyName>AbstractClasses</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,20 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Gemi.cs" />
-    <Compile Include="IYolcu.cs" />
-    <Compile Include="IYük.cs" />
-    <Compile Include="Kamyon.cs" />
-    <Compile Include="Kamyonet.cs" />
-    <Compile Include="Minibüs.cs" />
-    <Compile Include="Otobüs.cs" />
-    <Compile Include="Otomobil.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tır.cs" />
-    <Compile Include="Vapur.cs" />
-    <Compile Include="YolcuTasit.cs" />
-    <Compile Include="YukTasit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
